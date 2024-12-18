@@ -10,7 +10,14 @@ $font-family-sans-serif: "Inter", sans-serif;
 	--bs-border-width: 0px;
 }
 
-$h1-font-size: 4rem;
+$h1-font-size: 5rem;
+
+.section-bg {
+	background-image: url("../images/unityhubbrandbg.jpg"); /* Replace with your image path */
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
 
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
