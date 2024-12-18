@@ -13,10 +13,74 @@
 			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
 			crossorigin="anonymous"
 		/> -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link rel="stylesheet" href="css/main.css" />
 	</head>
 	<body>
-		<h1 class="text-primary">This is a Bootstrap Primary Colour Heading</h1>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg">
+			<div class="container">
+				<!-- Title -->
+				<a class="navbar-brand fw-bold" href="#">UnityHub Insight</a>
+
+				<!-- Navbar toggler for mobile view -->
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- Navbar content -->
+				<div
+					class="collapse navbar-collapse justify-content-end"
+					id="navbarNav"
+				>
+					<div class="d-flex align-items-center gap-2">
+						<a href="#about" class="link-dark fw-bold me-3 text-decoration-none"
+							>About</a
+						>
+						<a
+							href="#projects"
+							class="link-dark fw-bold me-3 text-decoration-none"
+							>Projects</a
+						>
+						<button class="btn text-white fw-bold horizontal-gradient">
+							Our Team
+						</button>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Header -->
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 pr-3">
+						<h1 class="fw-bold">Deep Dive Into</h1>
+						<h1 class="fw-bold">Our Development</h1>
+						<p>
+							UnityHub bridges the gap between underserved communities and
+							accessible learning resources. By connecting students and
+							volunteers, we create opportunities for growth, inclusion, and
+							success, tailored to individual needs.
+						</p>
+					</div>
+					<div class="col-md-6 pr-3">
+						<h6 class="p-3 text-secondary text-center text-uppercase">
+							Building The Vision
+						</h6>
+					</div>
+				</div>
+			</div>
+		</section>
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

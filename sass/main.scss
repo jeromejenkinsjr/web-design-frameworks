@@ -1,3 +1,27 @@
-$primary: red;
+@import "../node_modules/bootstrap/scss/functions";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+$border-radius: 2rem;
+
+$font-family-sans-serif: "Inter", sans-serif;
+
+.btn {
+	--bs-border-width: 0px;
+}
+
+$h1-font-size: 4rem;
+
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+.horizontal-gradient {
+	@include gradient-x(#ff512f, #dd2476);
+}
+
+.horizontal-gradient:hover {
+	background: linear-gradient(to right, #bd3f27, #791541);
+	color: #f8f9fa !important;
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
