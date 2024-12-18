@@ -23,10 +23,14 @@
 	</head>
 	<body>
 		<!-- Navbar -->
-		<nav class="navbar navbar-expand-lg">
+		<div class="navbar navbar-expand-lg">
 			<div class="container">
 				<!-- Title -->
-				<a class="navbar-brand fw-bold" href="#">UnityHub Insight</a>
+				<img
+					src="images/hublogosm1.png"
+					class="img-fluid"
+					alt="Description of image"
+				/>
 
 				<!-- Navbar toggler for mobile view -->
 				<button
@@ -47,24 +51,28 @@
 					id="navbarNav"
 				>
 					<div class="d-flex align-items-center gap-2">
-						<a href="#about" class="link-dark fw-bold me-3 text-decoration-none"
-							>About</a
+						<a
+							href="#about"
+							class="link-dark fw-bold me-3 text-decoration-none"
 						>
+							About
+						</a>
 						<a
 							href="#projects"
 							class="link-dark fw-bold me-3 text-decoration-none"
-							>Projects</a
 						>
+							Projects
+						</a>
 						<button class="btn text-white fw-bold horizontal-gradient">
 							Our Team
 						</button>
 					</div>
 				</div>
 			</div>
-		</nav>
+		</div>
 
 		<!-- Header -->
-		<section class="section-bg pt-5 pb-5">
+		<section class="section-bg pt-5 pb-5 mb-5 headerlayer">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 pr-3">
@@ -109,6 +117,167 @@
 						>
 							<h6 class="fw-light mb-0">Prototyping</h6>
 							<i class="bi bi-arrow-right"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- 1. Research -->
+		<section class="bg-dark text-white pt-5">
+			<div class="container">
+				<!-- Row for the paragraph elements -->
+				<div class="row d-flex align-items-center pb-5">
+					<div class="col-auto pr-0">
+						<p class="fw-bold text-secondary" style="letter-spacing: 3px">01</p>
+					</div>
+					<div class="col-auto">
+						<p class="fw-light text-secondary" style="letter-spacing: 3px">
+							/ 04
+						</p>
+					</div>
+				</div>
+				<!-- Row for the h1 elements -->
+				<div class="row d-flex align-items-center">
+					<div class="col-md-6 mb-5">
+						<h2 class="fw-bold">Research</h2>
+						<h2 class="fw-normal">- Where it all began</h2>
+					</div>
+					<div class="col-md-6 d-flex flex-column align-items-end">
+						<button
+							type="button"
+							class="btn2 btn-outline-secondary text-uppercase fw-semibold mb-3"
+							style="letter-spacing: 3px"
+						>
+							INITIAL RESEARCH
+						</button>
+						<button
+							type="button"
+							class="btn2 btn-outline-secondary text-uppercase fw-semibold mb-3"
+							style="letter-spacing: 3px"
+						>
+							HEURISTIC EVALUATION
+						</button>
+						<button
+							type="button"
+							class="btn2 btn-outline-secondary text-uppercase fw-semibold"
+							style="letter-spacing: 3px"
+						>
+							FINAL TOPIC RESEARCH
+						</button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6">
+						<img
+							src="images/illustrationresearch.png"
+							class="img-fluid"
+							alt="Description of image"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- 2. User Insights -->
+		<section class="bg-light text-dark pt-5">
+			<div class="container">
+				<!-- Row for the paragraph elements -->
+				<div class="row d-flex align-items-center pb-5">
+					<div class="col-auto pr-0">
+						<p class="fw-bold text-dark" style="letter-spacing: 3px">02</p>
+					</div>
+					<div class="col-auto">
+						<p class="fw-light text-dark" style="letter-spacing: 3px">/ 04</p>
+					</div>
+				</div>
+				<!-- Row for the h1 elements -->
+				<div class="row d-flex align-items-center justify-content-end">
+					<div class="col-md-6 mb-5">
+						<h2 class="fw-bold">User Insights</h2>
+						<h2 class="fw-normal">
+							- Collecting user feedback to deliver optimal results.
+						</h2>
+					</div>
+					<div class="col-6 text-end mb-5">
+						<img
+							src="images/userinsightsillustration.png"
+							class="img-fluid"
+							alt="Description of image"
+						/>
+					</div>
+				</div>
+				<div class="row pb-5">
+					<!-- Card 1 -->
+					<div class="col-12 col-md-6 col-lg-4 d-flex">
+						<div class="card flex-fill">
+							<div class="card-img-container">
+								<img src="images/cardimg1.jpg" class="card-img-top" alt="..." />
+							</div>
+							<div class="card-body">
+								<p class="card-text">
+									Discover what underserved communities need most through
+									detailed surveys. By collecting and analysing responses, we
+									uncover key pain points, preferences, and opportunities to
+									tailor learning resources effectively.
+								</p>
+								<button
+									type="button"
+									class="btn3 btn-outline-dark text-uppercase fw-semibold mt-3 mb-3"
+									style="letter-spacing: 3px"
+								>
+									Surveys
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<!-- Card 2 -->
+					<div class="col-12 col-md-6 col-lg-4 d-flex">
+						<div class="card flex-fill">
+							<div class="card-img-container">
+								<img src="images/cardimg2.jpg" class="card-img-top" alt="..." />
+							</div>
+							<div class="card-body">
+								<p class="card-text">
+									Engaging one-on-one with users provides invaluable
+									perspectives on their challenges and aspirations. Our
+									interviews allow us to explore their unique journeys, ensuring
+									UnityHub's solutions are as personal and impactful as their
+									stories.
+								</p>
+								<button
+									type="button"
+									class="btn3 btn-outline-dark text-uppercase fw-semibold mt-3 mb-3"
+									style="letter-spacing: 3px"
+								>
+									Interviews
+								</button>
+							</div>
+						</div>
+					</div>
+
+					<!-- Card 3 -->
+					<div class="col-12 col-md-6 col-lg-4 d-flex">
+						<div class="card flex-fill">
+							<div class="card-img-container">
+								<img src="images/cardimg3.jpg" class="card-img-top" alt="..." />
+							</div>
+							<div class="card-body">
+								<p class="card-text">
+									Every user is unique, and so are their needs. By creating
+									data-driven personas, we map out diverse profiles that reflect
+									real challenges and goals. These personas guide our designs
+									and decisions, ensuring inclusivity and relevance.
+								</p>
+								<button
+									type="button"
+									class="btn3 btn-outline-dark text-uppercase fw-semibold mt-3 mb-3"
+									style="letter-spacing: 3px"
+								>
+									Personas
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>

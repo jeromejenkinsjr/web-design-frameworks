@@ -11,12 +11,70 @@ $font-family-sans-serif: "Inter", sans-serif;
 }
 
 $h1-font-size: 5rem;
+$h2-font-size: 4rem;
+
+a:link {
+	color: initial; /* Set your initial link color */
+
+	&:hover {
+		color: #5e5e5e;
+	}
+}
+
+.btn2 {
+	--bs-btn-hover-bg: rgba(
+		255,
+		255,
+		255,
+		0
+	) !important; /* Transparent background */
+	--bs-btn-hover-border-color: #fff !important; /* White border color */
+}
+
+.btn3 {
+	--bs-btn-hover-bg: rgba(
+		255,
+		255,
+		255,
+		0
+	) !important; /* Transparent background */
+	--bs-btn-hover-border-color: #5e5e5e !important; /* White border color */
+	--bs-btn-hover-color: #5e5e5e !important;
+}
 
 .section-bg {
 	background-image: url("../images/unityhubbrandbg.jpg"); /* Replace with your image path */
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+
+/* Sticky header styling */
+.headerlayer {
+	position: sticky;
+	top: 0;
+	z-index: -1; /* Ensures the header is above other content */
+	background-color: #f8f9fa; /* Background color to distinguish the header */
+	padding: 10px 0;
+}
+
+.card {
+	overflow: hidden; /* Prevent the image from overflowing the card */
+}
+
+/* Hover zoom effect for card images */
+.card-img-top {
+	transition: transform 0.3s ease-in-out;
+}
+
+.card-img-container {
+	height: 250px; /* Set consistent height for the image container */
+	width: 100%; /* Ensure the container spans the full card width */
+	overflow: hidden; /* Hide the overflow when the image zooms */
+}
+
+.card-img-top:hover {
+	transform: scale(1.1); /* Zoom in the image slightly */
 }
 
 @import "../node_modules/bootstrap/scss/variables";
@@ -29,6 +87,16 @@ $h1-font-size: 5rem;
 .horizontal-gradient:hover {
 	background: linear-gradient(to right, #bd3f27, #791541);
 	color: #f8f9fa !important;
+}
+
+.btn2 {
+	@extend .btn; // Inherit all styles from .btn
+	--bs-border-width: 2px; // Set the custom border width
+}
+
+.btn3 {
+	@extend .btn; // Inherit all styles from .btn
+	--bs-border-width: 2px; // Set the custom border width
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
