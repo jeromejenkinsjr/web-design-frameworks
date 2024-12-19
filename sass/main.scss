@@ -99,4 +99,13 @@ a:link {
 	--bs-border-width: 2px; // Set the custom border width
 }
 
+@mixin image-size($width) {
+	width: $width;
+	height: ($width / 16) * 9;
+}
+
+.large-image {
+	@include image-size(700px);
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
