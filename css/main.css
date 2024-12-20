@@ -76,6 +76,16 @@ a:link:hover {
   color: #f8f9fa !important;
 }
 
+.svg-icon {
+  fill: white;
+  width: 24px;
+  height: 24px;
+  transition: fill 0.3s ease-in-out;
+}
+.svg-icon:hover {
+  background-image: linear-gradient(to right, #ff512f 0%, #dd2476 100%);
+}
+
 .btn2 {
   --bs-border-width: 2px;
 }
