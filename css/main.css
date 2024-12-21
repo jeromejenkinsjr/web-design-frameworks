@@ -67,6 +67,13 @@ a:link:hover {
   transform: scale(1.1); /* Zoom in the image slightly */
 }
 
+.gradient-icon {
+  display: inline-block;
+  background: linear-gradient(to right, #ff512f, #dd2476);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .horizontal-gradient {
   background-image: linear-gradient(to right, #ff512f 0%, #dd2476 100%);
 }
