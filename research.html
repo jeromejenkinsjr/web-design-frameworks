@@ -23,17 +23,19 @@
 	</head>
 	<body>
 		<!-- Navbar -->
-		<div class="navbar navbar-expand-lg">
+		<nav class="navbar navbar-expand-lg">
 			<div class="container">
-				<!-- Title -->
-				<a href="index.html">
+				<!-- Brand/Logo -->
+				<a href="index.html" class="navbar-brand">
 					<img
 						src="images/hublogosm1.png"
 						class="img-fluid"
-						alt="Description of image"
+						alt="UnityHub Logo"
+						style="height: 40px;"
 					/>
 				</a>
-				<!-- Navbar toggler for mobile view -->
+		
+				<!-- Navbar Toggler for Mobile -->
 				<button
 					class="navbar-toggler"
 					type="button"
@@ -45,34 +47,34 @@
 				>
 					<span class="navbar-toggler-icon"></span>
 				</button>
-
-				<!-- Navbar content -->
-				<div
-					class="collapse navbar-collapse justify-content-end"
-					id="navbarNav"
-				>
-					<div class="d-flex align-items-center gap-2">
-						<a
-							href="index.html"
-							class="link-dark fw-bold me-3 text-decoration-none"
-						>
-							Home
-						</a>
-						<a
-							href="about.html"
-							class="link-dark fw-bold me-3 text-decoration-none"
-						>
-							About
-						</a>
-						<a href="ourteam.html">
-							<button class="btn text-white fw-bold horizontal-gradient">
-								Our Team
-							</button>
-						</a>
-					</div>
+		
+				<!-- Navbar Links -->
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+					<ul class="navbar-nav d-flex align-items-center">
+						<!-- Home Link -->
+						<li class="nav-item">
+							<a href="index.html" class="nav-link fw-bold link-dark">Home</a>
+						</li>
+						<!-- About Link -->
+						<li class="nav-item">
+							<a href="about.html" class="nav-link fw-bold link-dark">About</a>
+						</li>
+						<!-- Our Team Button -->
+						<li class="nav-item">
+							<a href="ourteam.html" class="nav-link p-0">
+								<button
+									class="btn text-white fw-bold horizontal-gradient"
+									style="margin-top: -2px;"
+								>
+									Our Team
+								</button>
+							</a>
+						</li>
+					</ul>
 				</div>
 			</div>
-		</div>
+		</nav>
+		
 
 		<!-- Header -->
 		<section class="section-bg pt-5 pb-5 mb-5 headerlayer">
@@ -97,12 +99,10 @@
 		</section>
 
 		<!-- 1. Research -->
-		<section class="bg-dark text-white pt-5">
+		<section class="bg-dark text-white pt-5 pb-5">
 			<div class="container">
 				<!-- Row for the paragraph elements -->
-				<div
-					class="row d-flex align-items-center pb-5 text-center text-md-start mb-5"
-				>
+				<div class="row d-flex align-items-center pb-5 text-center text-md-start mb-5">
 					<div class="col-12 col-md-auto">
 						<p class="fw-bold text-secondary" style="letter-spacing: 3px">01</p>
 					</div>
@@ -122,103 +122,126 @@
 				<div class="row d-flex align-items-stretch text-center text-md-start">
 					<!-- First Column -->
 					<div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
-						<h3 class="fw-bold">Why?</h3>
+						<i class="bi bi-globe fs-2"></i>
+						<h3 class="mt-2 fw-bold">Understanding the SDGs</h3>
 						<p>
-							Prototyping UnityHub transformed abstract ideas into a functional
-							design blueprint. By focusing on inclusivity and accessibility, we
-							ensured the platform aligned with our mission to serve underserved
-							communities. This phase laid the foundation for a user-friendly
-							and impactful platform.
+							Our journey began with a deep dive into the Sustainable Development Goals (SDGs), particularly focusing on Goal 4 (Quality Education) and Goal 10 (Reduced Inequalities). We identified a significant gap in access to education for underserved communities.
 						</p>
 					</div>
-
+		
 					<!-- Second Column -->
 					<div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
-						<i class="bi bi-people-fill fs-2"></i>
-						<h3 class="mt-2 fw-bold">Wireframing</h3>
+						<i class="bi bi-lightbulb fs-2"></i>
+						<h3 class="mt-2 fw-bold">Identifying the Challenges</h3>
 						<p>
-							We began with wireframes to outline UnityHub’s structure and user
-							flow. These sketches balanced functionality and simplicity,
-							enabling users to navigate effortlessly. Collaboration with
-							designers refined these layouts into a solid framework.
+							Through research and interviews, we discovered barriers such as limited resources, language barriers, and lack of tailored educational support. These insights guided us toward building a solution that directly addresses these issues.
 						</p>
 					</div>
-
+		
 					<!-- Third Column -->
 					<div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
-						<i class="bi bi-book-fill fs-2"></i>
-						<h3 class="mt-2 fw-bold">Iterative Testing</h3>
+						<i class="bi bi-people fs-2"></i>
+						<h3 class="mt-2 fw-bold">Collaborative Ideation</h3>
 						<p>
-							Interactive prototypes simulated real-world use, allowing us to
-							gather crucial feedback. Testing with our target audience revealed
-							pain points and guided improvements. Iterative refinement ensured
-							the platform met user needs effectively.
+							By collaborating with educators, students, and community leaders, we brainstormed ideas that could bridge these gaps. The feedback reinforced the need for a platform centered around inclusivity and accessibility.
 						</p>
 					</div>
-
+		
 					<!-- Fourth Column -->
 					<div class="col-12 col-md-6 col-lg-3">
-						<i class="bi bi-lightbulb-fill fs-2"></i>
-						<h3 class="mt-2 fw-bold">Finalizing the Prototype</h3>
+						<i class="bi bi-layout-text-sidebar-reverse fs-2"></i>
+						<h3 class="mt-2 fw-bold">Conceptualizing UnityHub</h3>
 						<p>
-							The final prototype was polished for seamless development, with
-							responsive layouts and consistent visuals. Collaborating with
-							developers ensured scalability and performance, setting the stage
-							for UnityHub’s success.
-						</p>
-					</div>
-				</div>
-				<div
-					class="row d-flex align-items-center text-center text-md-start mt-5"
-				>
-					<!-- First Column -->
-					<div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
-						<h3 class="fw-bold">Our Vision</h3>
-						<p>
-							At UnityHub, we strive to connect underserved communities with
-							accessible learning opportunities that drive growth and inclusion.
-						</p>
-					</div>
-
-					<!-- Second Column -->
-					<div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
-						<img
-							src="images/mission.jpg"
-							alt="Mission Image"
-							class="img-fluid rounded"
-						/>
-						<p class="mt-2">
-							Empowering individuals through meaningful education.
-						</p>
-					</div>
-
-					<!-- Third Column -->
-					<div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
-						<img
-							src="images/research/small1.png"
-							alt="Community Image"
-							class="img-fluid"
-						/>
-						<p class="mt-2">
-							Building stronger communities through collaboration.
-						</p>
-					</div>
-
-					<!-- Fourth Column -->
-					<div class="col-12 col-md-6 col-lg-3">
-						<img
-							src="images/research/small2.png"
-							alt="Innovation Image"
-							class="img-fluid"
-						/>
-						<p class="mt-2">
-							Driving innovation to overcome challenges and create
-							opportunities.
+							These findings culminated in the creation of UnityHub, a platform designed to provide accessible, tailored educational resources. It aligns with the SDGs by addressing education gaps and fostering inclusivity.
 						</p>
 					</div>
 				</div>
 			</div>
 		</section>
+		
+<!-- Heuristic Evaluation -->
+<section class="bg-light text-dark pb-5 pt-5">
+    <div class="container">
+        <!-- Row for the paragraph elements -->
+        <div class="row d-flex align-items-center pb-5 text-center text-md-start mb-5">
+            <div class="col-12 col-md-auto">
+                <p class="fw-bold text-secondary" style="letter-spacing: 3px">02</p>
+            </div>
+            <div class="col-12 col-md-auto">
+                <p class="fw-light text-secondary" style="letter-spacing: 3px">/ 03</p>
+            </div>
+        </div>
+        <!-- Row for the h1 elements -->
+        <div class="row d-flex align-items-center text-center text-md-start">
+            <div class="col-md-6 mb-5">
+                <h2 class="fw-bold">Heuristic Evaluation</h2>
+            </div>
+        </div>
+        <!-- Row for the content columns -->
+        <div class="row">
+            <!-- Left Column with Carousel -->
+            <div class="col-12 col-lg-6 border-end">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/eval/1.png" class="d-block w-100" alt="First Slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/eval/2.png" class="d-block w-100" alt="Second Slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/eval/3.png" class="d-block w-100" alt="Third Slide">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="col-12 col-lg-6 mt-md-3">
+                <div class="row">
+                    <!-- Top Row -->
+                    <div class="col-12 d-flex flex-wrap align-items-center mb-4">
+                        <!-- Text Column -->
+                        <div class="col-12 col-sm-6 mb-3 mb-sm-0">
+                            <h4 class="fw-bold">User-Centric Design</h4>
+                            <p>
+                                Conducting in-depth analyses ensures that every feature aligns with the user's needs and expectations. By evaluating usability, accessibility, and overall functionality, UnityHub aims to create a seamless experience that empowers underserved communities to achieve their educational goals.
+                            </p>
+                        </div>
+                        <!-- Image Column -->
+                        <div class="col-12 col-sm-6">
+                            <img src="images/eval/4.png" class="img-fluid rounded" alt="User-Centric Design">
+                        </div>
+                    </div>
+
+                    <!-- Bottom Row -->
+                    <div class="col-12 d-flex flex-wrap align-items-center">
+                        <!-- Text Column -->
+                        <div class="col-12 col-sm-6 mb-3 mb-sm-0">
+                            <h4 class="fw-bold">Gamification and Engagement</h4>
+                            <p>
+                                Duolingo's gamification strategies, such as points, streaks, and rewards, highlight the importance of keeping users motivated and engaged.
+                            </p>
+                        </div>
+                        <!-- Image Column -->
+                        <div class="col-12 col-sm-6">
+                            <img src="images/eval/5.png" class="img-fluid rounded" alt="Gamification and Engagement">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 		<footer class="bg-dark text-white py-4 px-5 fw-lighter">
 			<div class="container">

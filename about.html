@@ -23,17 +23,19 @@
 	</head>
 	<body>
 		<!-- Navbar -->
-		<div class="navbar navbar-expand-lg">
+		<nav class="navbar navbar-expand-lg">
 			<div class="container">
-				<!-- Title -->
-				<a href="index.html">
+				<!-- Brand/Logo -->
+				<a href="index.html" class="navbar-brand">
 					<img
 						src="images/hublogosm1.png"
 						class="img-fluid"
-						alt="Description of image"
+						alt="UnityHub Logo"
+						style="height: 40px;"
 					/>
 				</a>
-				<!-- Navbar toggler for mobile view -->
+		
+				<!-- Navbar Toggler for Mobile -->
 				<button
 					class="navbar-toggler"
 					type="button"
@@ -45,34 +47,33 @@
 				>
 					<span class="navbar-toggler-icon"></span>
 				</button>
-
-				<!-- Navbar content -->
-				<div
-					class="collapse navbar-collapse justify-content-end"
-					id="navbarNav"
-				>
-					<div class="d-flex align-items-center gap-2">
-						<a
-							href="index.html"
-							class="link-dark fw-bold me-3 text-decoration-none"
-						>
-							Home
-						</a>
-						<a
-							href="about.html"
-							class="link-dark fw-bold me-3 text-decoration-none"
-						>
-							About
-						</a>
-						<a href="ourteam.html">
-							<button class="btn text-white fw-bold horizontal-gradient">
-								Our Team
-							</button>
-						</a>
-					</div>
+		
+				<!-- Navbar Links -->
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+					<ul class="navbar-nav d-flex align-items-center">
+						<!-- Home Link -->
+						<li class="nav-item">
+							<a href="index.html" class="nav-link fw-bold link-dark">Home</a>
+						</li>
+						<!-- About Link -->
+						<li class="nav-item">
+							<a href="about.html" class="nav-link fw-bold link-dark">About</a>
+						</li>
+						<!-- Our Team Button -->
+						<li class="nav-item">
+							<a href="ourteam.html" class="nav-link p-0">
+								<button
+									class="btn text-white fw-bold horizontal-gradient"
+									style="margin-top: -2px;"
+								>
+									Our Team
+								</button>
+							</a>
+						</li>
+					</ul>
 				</div>
 			</div>
-		</div>
+		</nav>
 
 		<!-- Header -->
 		<section class="section-bg pt-5 pb-5 mb-5 headerlayer">
