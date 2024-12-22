@@ -1,16 +1,16 @@
 const captions = [
 	{
-		title: "First lide label",
-		description: "Some representative placeholder content for the first slide.",
+		title: "Key Pages Designed by Jeremi",
+		description: "English and Arabic modes and extensive learning pages.",
 	},
 	{
-		title: "Second slide label",
+		title: "Course Content",
 		description:
-			"Some representative placeholder content for the second slide.",
+			"See your course content, and get in touch with your mentor.",
 	},
 	{
-		title: "Third slide label",
-		description: "Some representative placeholder content for the third slide.",
+		title: "From Communities, to You.",
+		description: "Jump from your Circles to your Profile and change it to your preference.",
 	},
 ];
 
