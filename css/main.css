@@ -44,13 +44,14 @@ a:link:hover {
   position: sticky;
   top: 0;
   z-index: -1; /* Ensures the header is above other content */
-  background-color: #f8f9fa; /* Background color to distinguish the header */
+  background-color: #f8f9fa;
   padding: 10px 0;
 }
 
-.headerlayer .interactive {
-  position: relative; /* Create a new stacking context */
-  z-index: 0; /* Ensure it's above the parent */
+.homeheaderlayer {
+  top: 0;
+  background-color: #f8f9fa;
+  padding: 10px 0;
 }
 
 .card {
